@@ -14,3 +14,14 @@
 Статус: этап 0 — согласование стандарта и перечня блоков.
 
 - [docs/CATALOG.md](docs/CATALOG.md) — перечень блоков (актуализируется)
+
+## Сборка
+
+```bash
+pip install -r requirements.txt
+python -m kmd_blocks.build            # блоки → dist/, индекс → catalog/index.csv
+python -m examples.pilot_20B1_bolt    # пилот: сечение 20Б1 с болтом М16 → dist/examples/
+pytest
+```
+
+Размеры ГОСТ в `data/*.csv` помечены `verified=no`, пока их не сверит проектировщик.
