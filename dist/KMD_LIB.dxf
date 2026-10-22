@@ -97,7 +97,7 @@ $TRACEWID
   9
 $TEXTSTYLE
   7
-Standard
+ГОСТ 2.304
   9
 $CLAYER
   8
@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461336.820150463
+2461336.8244212964
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461336.820150463
+2461336.8244328704
   9
 $TDUUPDATE
  40
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{B26C6EB1-B884-4F75-9103-4A65E444630F}
+{50C79F30-C542-43FE-A7F3-7601D41D4738}
   9
 $VERSIONGUID
   2
-{A7DAA489-FAB7-4B18-87EB-74DF32ED930E}
+{1D7828D5-F182-4251-AA6C-EFFBDE901493}
   9
 $EXTNAMES
 290
@@ -1327,9 +1327,9 @@ ISM
   0
 CLASS
   1
-ACDBPLACEHOLDER
+LAYOUT
   2
-AcDbPlaceHolder
+AcDbLayout
   3
 ObjectDBX Classes
  90
@@ -1343,9 +1343,9 @@ ObjectDBX Classes
   0
 CLASS
   1
-LAYOUT
+ACDBPLACEHOLDER
   2
-AcDbLayout
+AcDbPlaceHolder
   3
 ObjectDBX Classes
  90
@@ -1757,7 +1757,7 @@ AcDbLayerTableRecord
  70
 0
  62
-7
+8
   6
 Continuous
 370
@@ -1781,7 +1781,7 @@ AcDbLayerTableRecord
  70
 0
  62
-7
+5
   6
 ACAD_ISO02W100
 370
@@ -1949,7 +1949,7 @@ AcDbLayerTableRecord
  70
 0
  62
-2
+6
   6
 Continuous
 370
@@ -1973,7 +1973,7 @@ AcDbLayerTableRecord
  70
 0
  62
-2
+7
   6
 Continuous
 370
@@ -1997,7 +1997,7 @@ AcDbLayerTableRecord
  70
 0
  62
-7
+2
   6
 Continuous
 370
@@ -2021,7 +2021,7 @@ AcDbLayerTableRecord
  70
 0
  62
-2
+4
   6
 Continuous
 370
@@ -2045,7 +2045,7 @@ AcDbLayerTableRecord
  70
 0
  62
-6
+30
   6
 Continuous
 370
@@ -2069,11 +2069,11 @@ AcDbLayerTableRecord
  70
 0
  62
-4
+30
   6
 Continuous
 370
-25
+18
 390
 13
 347
@@ -2093,11 +2093,11 @@ AcDbLayerTableRecord
  70
 0
  62
-8
+9
   6
 Continuous
 370
-13
+18
 390
 13
 347
@@ -2117,7 +2117,7 @@ AcDbLayerTableRecord
  70
 0
  62
-7
+8
   6
 Continuous
 370
@@ -2165,7 +2165,7 @@ AcDbLayerTableRecord
  70
 0
  62
-8
+252
   6
 Continuous
 290
@@ -2191,7 +2191,7 @@ Z_Вспомог
  70
 0
  62
-9
+254
   6
 Continuous
 290
@@ -2255,7 +2255,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-ISOCPEUR
+ГОСТ 2.304
  70
 0
  40
@@ -2519,7 +2519,7 @@ AcDbSymbolTableRecord
 100
 AcDbDimStyleTableRecord
   2
-KMD_1-1
+AG_KB_1-1
  70
 0
  40
@@ -2527,11 +2527,11 @@ KMD_1-1
  41
 2.5
  42
-0.0
+0.625
  43
 3.75
  44
-2.0
+1.25
  45
 0.0
  46
@@ -2543,7 +2543,7 @@ KMD_1-1
  49
 2.5
 140
-3.5
+2.5
 141
 2.5
 142
@@ -2919,7 +2919,7 @@ AcDbText
   1
 SEC_I_57837_20B1
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -2957,7 +2957,7 @@ AcDbText
   1
 0.1.0
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -2995,7 +2995,7 @@ AcDbText
   1
 ГОСТ Р 57837-2017
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -3033,7 +3033,7 @@ AcDbText
   1
 20Б1
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -3071,7 +3071,7 @@ AcDbText
   1
 22.4
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -3473,7 +3473,7 @@ AcDbText
   1
 SEC_I_57837_20B1_WH18
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -3511,7 +3511,7 @@ AcDbText
   1
 0.1.0
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -3549,7 +3549,7 @@ AcDbText
   1
 ГОСТ Р 57837-2017
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -3587,7 +3587,7 @@ AcDbText
   1
 20Б1
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -3625,7 +3625,7 @@ AcDbText
   1
 22.4
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -4069,7 +4069,7 @@ AcDbText
   1
 HW_SET_7798_M16x30_G5.6
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -4107,7 +4107,7 @@ AcDbText
   1
 0.1.0
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -4145,7 +4145,7 @@ AcDbText
   1
 Болт М16-6gx30.58 ГОСТ 7798-70
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -4183,7 +4183,7 @@ AcDbText
   1
 Гайка М16-6H.5 ГОСТ 5915-70
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -4221,7 +4221,7 @@ AcDbText
   1
 Шайба 16 ГОСТ 11371-78
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -4259,7 +4259,7 @@ AcDbText
   1
 2
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -5889,7 +5889,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-10-22T19:41:01.397729+00:00
+1.4.5 @ 2026-10-22T19:47:10.720635+00:00
   0
 DICTIONARYVAR
   5
@@ -5901,7 +5901,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-10-22T19:41:01.688392+00:00
+1.4.5 @ 2026-10-22T19:47:11.041638+00:00
   0
 ENDSEC
   0

@@ -97,7 +97,7 @@ $TRACEWID
   9
 $TEXTSTYLE
   7
-Standard
+ГОСТ 2.304
   9
 $CLAYER
   8
@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461336.820150463
+2461336.8244212964
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461336.820150463
+2461336.8244212964
   9
 $TDUUPDATE
  40
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{57D9246C-5BF9-4FE5-B775-AC4FBBB79277}
+{34B06798-3496-485B-A7C5-6B792532187E}
   9
 $VERSIONGUID
   2
-{067366D4-E31C-4675-A085-0F3E9CC54779}
+{BFD842CF-C248-4D6A-A345-47DE18BCB809}
   9
 $EXTNAMES
 290
@@ -1327,9 +1327,9 @@ ISM
   0
 CLASS
   1
-ACDBPLACEHOLDER
+LAYOUT
   2
-AcDbPlaceHolder
+AcDbLayout
   3
 ObjectDBX Classes
  90
@@ -1343,9 +1343,9 @@ ObjectDBX Classes
   0
 CLASS
   1
-LAYOUT
+ACDBPLACEHOLDER
   2
-AcDbLayout
+AcDbPlaceHolder
   3
 ObjectDBX Classes
  90
@@ -1757,7 +1757,7 @@ AcDbLayerTableRecord
  70
 0
  62
-7
+8
   6
 Continuous
 370
@@ -1781,7 +1781,7 @@ AcDbLayerTableRecord
  70
 0
  62
-7
+5
   6
 ACAD_ISO02W100
 370
@@ -1949,7 +1949,7 @@ AcDbLayerTableRecord
  70
 0
  62
-2
+6
   6
 Continuous
 370
@@ -1973,7 +1973,7 @@ AcDbLayerTableRecord
  70
 0
  62
-2
+7
   6
 Continuous
 370
@@ -1997,7 +1997,7 @@ AcDbLayerTableRecord
  70
 0
  62
-7
+2
   6
 Continuous
 370
@@ -2021,7 +2021,7 @@ AcDbLayerTableRecord
  70
 0
  62
-2
+4
   6
 Continuous
 370
@@ -2045,7 +2045,7 @@ AcDbLayerTableRecord
  70
 0
  62
-6
+30
   6
 Continuous
 370
@@ -2069,11 +2069,11 @@ AcDbLayerTableRecord
  70
 0
  62
-4
+30
   6
 Continuous
 370
-25
+18
 390
 13
 347
@@ -2093,11 +2093,11 @@ AcDbLayerTableRecord
  70
 0
  62
-8
+9
   6
 Continuous
 370
-13
+18
 390
 13
 347
@@ -2117,7 +2117,7 @@ AcDbLayerTableRecord
  70
 0
  62
-7
+8
   6
 Continuous
 370
@@ -2165,7 +2165,7 @@ AcDbLayerTableRecord
  70
 0
  62
-8
+252
   6
 Continuous
 290
@@ -2191,7 +2191,7 @@ Z_Вспомог
  70
 0
  62
-9
+254
   6
 Continuous
 290
@@ -2255,7 +2255,7 @@ AcDbSymbolTableRecord
 100
 AcDbTextStyleTableRecord
   2
-ISOCPEUR
+ГОСТ 2.304
  70
 0
  40
@@ -2519,7 +2519,7 @@ AcDbSymbolTableRecord
 100
 AcDbDimStyleTableRecord
   2
-KMD_1-1
+AG_KB_1-1
  70
 0
  40
@@ -2527,11 +2527,11 @@ KMD_1-1
  41
 2.5
  42
-0.0
+0.625
  43
 3.75
  44
-2.0
+1.25
  45
 0.0
  46
@@ -2543,7 +2543,7 @@ KMD_1-1
  49
 2.5
 140
-3.5
+2.5
 141
 2.5
 142
@@ -2905,7 +2905,7 @@ AcDbText
   1
 SEC_I_57837_20B1_WH18
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -2943,7 +2943,7 @@ AcDbText
   1
 0.1.0
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -2981,7 +2981,7 @@ AcDbText
   1
 ГОСТ Р 57837-2017
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -3019,7 +3019,7 @@ AcDbText
   1
 20Б1
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -3057,7 +3057,7 @@ AcDbText
   1
 22.4
   7
-ISOCPEUR
+ГОСТ 2.304
 100
 AcDbAttributeDefinition
   3
@@ -4439,7 +4439,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-10-22T19:41:01.527800+00:00
+1.4.5 @ 2026-10-22T19:47:10.863683+00:00
   0
 DICTIONARYVAR
   5
@@ -4451,7 +4451,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-10-22T19:41:01.530522+00:00
+1.4.5 @ 2026-10-22T19:47:10.866293+00:00
   0
 ENDSEC
   0
