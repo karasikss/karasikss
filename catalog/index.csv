@@ -1,4 +1,0 @@
-name;category;title_ru;gost;size;file;layer;insert_point;scale_mode;attrs;params;lib_ver
-HW_SET_7798_M16x30_G5.6;HW;Болтокомплект М16x30, пакет 5.6 мм, вид сбоку;ГОСТ 7798-70;M16x30;dist/dxf/HW/HW_SET_7798_M16x30_G5.6.dxf;К_Контур;середина пакета на оси болта;model;BOLT,NUT,WASHER,QTY_WASHER;d=16,L=30,grip=5.6;0.1.0
-SEC_I_57837_20B1;SEC;Двутавр 20Б1, сечение;ГОСТ Р 57837-2017;20Б1;dist/dxf/SEC/SEC_I_57837_20B1.dxf;К_Контур;центр тяжести;model;GOST,PROFILE,MASS_M;h=200,b=100,tw=5.6,tf=8.5,r=12;0.1.0
-SEC_I_57837_20B1_WH18;SEC;Двутавр 20Б1, сечение, отв. Ø18 в стенке;ГОСТ Р 57837-2017;20Б1;dist/dxf/SEC/SEC_I_57837_20B1_WH18.dxf;К_Контур;центр тяжести;model;GOST,PROFILE,MASS_M;h=200,b=100,tw=5.6,tf=8.5,r=12;0.1.0
