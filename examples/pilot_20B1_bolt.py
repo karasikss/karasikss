@@ -48,12 +48,17 @@ def main() -> Path:
         dict(base=(-B - 32, 0), p1=(-B, -H), p2=(-B, H), angle=90),          # h
         dict(base=(-B - 16, 0), p1=(-B, -H), p2=(-24, 0), angle=90),         # до оси болта
         dict(base=(-B - 16, 0), p1=(-24, 0), p2=(-B, H), angle=90),
-        dict(base=(B + 12, 0), p1=(B, H), p2=(B, H - beam.tf), angle=90),    # tf
+        dict(base=(B + 12, 0), p1=(B, H), p2=(B, H - beam.tf), angle=90,    # tf
+             text_at=(B + 24, H + 16)),
         dict(base=(0, 55), p1=(-beam.tw / 2, 55), p2=(beam.tw / 2, 55),     # tw
-             location=(18, 55 + TH * 0.6)),
+             text_at=(16, 70)),
     ]
     for d in dims:
-        msp.add_linear_dim(dimstyle=ds, dxfattribs={"layer": "Р_Размеры"}, **d).render()
+        text_at = d.pop("text_at", None)
+        dim = msp.add_linear_dim(dimstyle=ds, dxfattribs={"layer": "Р_Размеры"}, **d)
+        if text_at:  # малый размер: текст на полке с выноской (DIMTMOVE=1)
+            dim.set_location(text_at, leader=True)
+        dim.render()
 
     leader(msp, (12, -10), (62, -75), [
         "Болт М16-6gx30.58 ГОСТ 7798-70",

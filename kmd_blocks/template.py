@@ -78,6 +78,9 @@ def add_dimstyle(doc: Drawing, scale: int) -> None:
             "dimdle": 2.0,
             "dimgap": 1.0,
             "dimtad": 1,
+            "dimatfit": 3,  # не помещается — выносить сначала текст
+            "dimtmove": 1,  # вынесенный текст — на полке с выноской
+            "dimtix": 0,
             "dimdec": 1,
             "dimdsep": ord(","),
             "dimtzin": 8,

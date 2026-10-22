@@ -493,7 +493,7 @@ $SKPOLY
   9
 $TDCREATE
  40
-2461336.805428241
+2461336.8200347223
   9
 $TDUCREATE
  40
@@ -501,7 +501,7 @@ $TDUCREATE
   9
 $TDUPDATE
  40
-2461336.805428241
+2461336.8200347223
   9
 $TDUUPDATE
  40
@@ -553,7 +553,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-E5
+E9
   9
 $SURFTAB1
  70
@@ -933,11 +933,11 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{51B7533A-7846-4134-A458-DE0A322DA366}
+{8305FA38-17AA-4F14-9A2A-BD2E36D15903}
   9
 $VERSIONGUID
   2
-{50EA6E5A-9A69-412C-BC71-F97AC965B1D0}
+{2D7CE996-D615-4CD2-80F1-E7A010DDD462}
   9
 $EXTNAMES
 290
@@ -1327,9 +1327,9 @@ ISM
   0
 CLASS
   1
-ACDBPLACEHOLDER
+LAYOUT
   2
-AcDbPlaceHolder
+AcDbLayout
   3
 ObjectDBX Classes
  90
@@ -1343,9 +1343,9 @@ ObjectDBX Classes
   0
 CLASS
   1
-LAYOUT
+ACDBPLACEHOLDER
   2
-AcDbLayout
+AcDbPlaceHolder
   3
 ObjectDBX Classes
  90
@@ -2331,7 +2331,7 @@ ACAD
   0
 APPID
   5
-E2
+E6
 330
 3
 100
@@ -2345,7 +2345,7 @@ HATCHBACKGROUNDCOLOR
   0
 APPID
   5
-E3
+E7
 330
 3
 100
@@ -2619,7 +2619,7 @@ KMD_1-2
 278
 44
 279
-0
+1
 280
 0
 281
@@ -2865,7 +2865,7 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-CC
+CE
 330
 9
 100
@@ -5561,9 +5561,9 @@ AcDbEntity
 100
 AcDbMText
  10
-71.5
+74.0
  20
-95.75
+116.0
  30
 0.0
  40
@@ -5577,9 +5577,57 @@ ISOCPEUR
  50
 90.0
   0
-POINT
+LINE
   5
 C8
+330
+BD
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+62.0
+ 20
+95.75
+ 30
+0.0
+ 11
+79.0
+ 21
+105.5
+ 31
+0.0
+  0
+LINE
+  5
+C9
+330
+BD
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+79.0
+ 20
+105.5
+ 30
+0.0
+ 11
+79.0
+ 21
+126.5
+ 31
+0.0
+  0
+POINT
+  5
+CA
 330
 BD
 100
@@ -5597,7 +5645,7 @@ AcDbPoint
   0
 POINT
   5
-C9
+CB
 330
 BD
 100
@@ -5615,7 +5663,7 @@ AcDbPoint
   0
 POINT
   5
-CA
+CC
 330
 BD
 100
@@ -5645,9 +5693,9 @@ AcDbBlockEnd
   0
 BLOCK
   5
-CD
+CF
 330
-CC
+CE
 100
 AcDbEntity
   8
@@ -5671,9 +5719,9 @@ AcDbBlockBegin
   0
 LINE
   5
-CF
+D1
 330
-CC
+CE
 100
 AcDbEntity
   8
@@ -5695,9 +5743,9 @@ AcDbLine
   0
 LINE
   5
-D0
+D2
 330
-CC
+CE
 100
 AcDbEntity
   8
@@ -5719,9 +5767,9 @@ AcDbLine
   0
 INSERT
   5
-D1
+D3
 330
-CC
+CE
 100
 AcDbEntity
   8
@@ -5743,9 +5791,9 @@ _ARCHTICK
   0
 INSERT
   5
-D3
+D5
 330
-CC
+CE
 100
 AcDbEntity
   8
@@ -5769,9 +5817,9 @@ _ARCHTICK
   0
 LINE
   5
-D5
+D7
 330
-CC
+CE
 100
 AcDbEntity
   8
@@ -5793,9 +5841,9 @@ AcDbLine
   0
 MTEXT
   5
-D6
+D8
 330
-CC
+CE
 100
 AcDbEntity
   8
@@ -5803,9 +5851,9 @@ AcDbEntity
 100
 AcDbMText
  10
-18.0
+16.0
  20
-59.2
+70.0
  30
 0.0
  40
@@ -5817,47 +5865,95 @@ AcDbMText
   7
 ISOCPEUR
   0
-POINT
-  5
-D7
-330
-CC
-100
-AcDbEntity
-  8
-Defpoints
-100
-AcDbPoint
- 10
--2.8
- 20
-55.0
- 30
-0.0
-  0
-POINT
-  5
-D8
-330
-CC
-100
-AcDbEntity
-  8
-Defpoints
-100
-AcDbPoint
- 10
--2.8
- 20
-55.0
- 30
-0.0
-  0
-POINT
+LINE
   5
 D9
 330
-CC
+CE
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+0.0
+ 20
+55.0
+ 30
+0.0
+ 11
+5.5
+ 21
+65.0
+ 31
+0.0
+  0
+LINE
+  5
+DA
+330
+CE
+100
+AcDbEntity
+  8
+0
+100
+AcDbLine
+ 10
+5.5
+ 20
+65.0
+ 30
+0.0
+ 11
+26.5
+ 21
+65.0
+ 31
+0.0
+  0
+POINT
+  5
+DB
+330
+CE
+100
+AcDbEntity
+  8
+Defpoints
+100
+AcDbPoint
+ 10
+-2.8
+ 20
+55.0
+ 30
+0.0
+  0
+POINT
+  5
+DC
+330
+CE
+100
+AcDbEntity
+  8
+Defpoints
+100
+AcDbPoint
+ 10
+-2.8
+ 20
+55.0
+ 30
+0.0
+  0
+POINT
+  5
+DD
+330
+CE
 100
 AcDbEntity
   8
@@ -5873,9 +5969,9 @@ AcDbPoint
   0
 ENDBLK
   5
-CE
+D0
 330
-CC
+CE
 100
 AcDbEntity
   8
@@ -6721,13 +6817,13 @@ KMD_1-2
  30
 0.0
  11
-71.5
+79.0
  21
-95.75
+105.5
  31
 0.0
  70
-32
+160
  71
 5
   1
@@ -6750,10 +6846,22 @@ AcDbAlignedDimension
 90.0
 100
 AcDbRotatedDimension
+1001
+ACAD
+1000
+DSTYLE
+1002
+{
+1070
+279
+1070
+1
+1002
+}
   0
 DIMENSION
   5
-CB
+CD
 330
 17
 100
@@ -6775,9 +6883,9 @@ KMD_1-2
  30
 0.0
  11
-18.0
+5.5
  21
-59.2
+65.0
  31
 0.0
  70
@@ -6813,13 +6921,13 @@ DSTYLE
 1070
 279
 1070
-2
+1
 1002
 }
   0
 LWPOLYLINE
   5
-DA
+DE
 330
 17
 100
@@ -6847,7 +6955,7 @@ AcDbPolyline
   0
 HATCH
   5
-DB
+DF
 330
 17
 100
@@ -6907,7 +7015,7 @@ SOLID
   0
 MTEXT
   5
-DC
+E0
 330
 17
 100
@@ -6933,7 +7041,7 @@ ISOCPEUR
   0
 LWPOLYLINE
   5
-DD
+E1
 330
 17
 100
@@ -6961,7 +7069,7 @@ AcDbPolyline
   0
 HATCH
   5
-DE
+E2
 330
 17
 100
@@ -7021,7 +7129,7 @@ SOLID
   0
 MTEXT
   5
-DF
+E3
 330
 17
 100
@@ -7047,7 +7155,7 @@ ISOCPEUR
   0
 TEXT
   5
-E0
+E4
 330
 17
 100
@@ -7083,7 +7191,7 @@ AcDbText
   0
 TEXT
   5
-E1
+E5
 330
 17
 100
@@ -8107,7 +8215,7 @@ CREATED_BY_EZDXF
   3
 WRITTEN_BY_EZDXF
 350
-E4
+E8
   0
 DICTIONARYVAR
   5
@@ -8119,11 +8227,11 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-10-22T19:19:49.781690+00:00
+1.4.5 @ 2026-10-22T19:40:51.913807+00:00
   0
 DICTIONARYVAR
   5
-E4
+E8
 330
 2D
 100
@@ -8131,7 +8239,7 @@ DictionaryVariables
 280
 0
   1
-1.4.5 @ 2026-10-22T19:19:49.796216+00:00
+1.4.5 @ 2026-10-22T19:40:51.923854+00:00
   0
 ENDSEC
   0
