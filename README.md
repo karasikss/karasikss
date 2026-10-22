@@ -14,6 +14,7 @@
 Статус: этап 0 — согласование стандарта и перечня блоков.
 
 - [docs/CATALOG.md](docs/CATALOG.md) — перечень блоков (актуализируется)
+- [docs/INSTALL.md](docs/INSTALL.md) — установка на компьютер (задание для локального Claude)
 - [docs/MCP_PILOT.md](docs/MCP_PILOT.md) — проверка связки на AutoCAD 2026
 - [skill/kmd-blocks/SKILL.md](skill/kmd-blocks/SKILL.md) — инструкция для Claude
 

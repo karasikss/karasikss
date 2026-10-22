@@ -4,12 +4,8 @@
 и читается обратно. ~10 минут.
 
 ## Подготовка (один раз)
-1. Скопировать репозиторий на компьютер, например в `C:\KMD_Blocks`
-   (git clone ветки `claude/gracious-pasteur-op4bhj` или архив с GitHub).
-2. В настройках MCP-сервера `autocad-2026` добавить `C:\KMD_Blocks` в `ALLOWED_PATHS`
-   (через `;` к существующим путям) и перезапустить клиент.
-3. Подключить инструкцию: скопировать папку `skill\kmd-blocks` в `%USERPROFILE%\.claude\skills\`
-   (Claude Code) или в проект.
+Установить библиотеку в `C:\KMD_Blocks` по [INSTALL.md](INSTALL.md): папка, skill и путь в `ALLOWED_PATHS`
+(пути в `ALLOWED_PATHS` разделяются **запятой**).
 
 ## Сценарий
 Открыть в AutoCAD рабочую копию `SP_Шаблон_РД_работа.dwg`, перейти в модель и дать Claude задание:
